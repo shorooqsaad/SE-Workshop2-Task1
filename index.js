@@ -11,12 +11,11 @@ let config = {
 
 FastText.train("supervised", config, function (success, error) {
 
-  if(error) {
-    console.log(error)
-    return;
-  }
-  
-  console.log(success)
+if(error) {
+  console.log(error)
+  return;
+}
+console.log(success)
   
 })
 
@@ -31,20 +30,19 @@ app.get('/fasttext/', function(req, res) {
     res.send(getFastTextResults(statement));
 });
 
-function getFastTextResults(statement) {
+ function getFastTextResults(statement) {
+	var result =null;
 	//predict returns an array with the input and predictions for best cateogires
-	FastText.predict(
-		"model.bin", 3,
-		[statement],
-		function (success, error) {
+  FastText.predict(
+		"model.bin", 3,[statement], function (success, error) {
 
 		  if(error) {
 			console.log(error)
 			return;
 		  }
-		  console.log(success)
+		  result=success
 		})
-	return "success!";
+	return result;
 }
 
 app.listen(8000, () => {

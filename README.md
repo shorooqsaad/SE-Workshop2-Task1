@@ -7,10 +7,13 @@ We set up a Node js server to run the core system of the machine learning (fastt
 After we follow all the steps , we open the html page and enter text to be classified and submite it and display "success" message , the result appear in terminal ( value, lable ,...)
 So we uploade all files that downloaded afer Run. 
 
-After linking my git with travic CI and starting sync , star building and got pass as shows below 
-![Screenshot (53)](https://user-images.githubusercontent.com/91686410/146259802-b22fa7a7-2be3-4dd6-9d48-d4d0bdd34579.png)
+After linking my git with travic CI and starting sync , star building and got pass as shows below :
 
-![Screenshot (54)](https://user-images.githubusercontent.com/91686410/146259828-7852464d-49cd-41c5-9c77-9b0427f06218.png)
+
+![Screenshot (53)](https://user-images.githubusercontent.com/91686410/146260234-9657eef3-4e08-4d25-8cd8-e1aafa29c91c.png)
+![Screenshot (54)](https://user-images.githubusercontent.com/91686410/146260237-6b468145-f94a-45e5-8c57-68c9ea60fd7c.png)
+
+
 
 # Prepared By:
 Areej Turky Alotaibi	atsalotaibi03@sm.imamu.edu.sa

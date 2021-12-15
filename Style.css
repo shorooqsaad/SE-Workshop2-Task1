@@ -9,3 +9,11 @@ body{
     font-size: 15px;
     color: rgb(128, 126, 167);
 }
+div
+{       
+margin-top: 50px;
+margin-bottom: 100px;
+margin-right: 50px;
+margin-left: 450px;
+background-color: aliceblue;
+}
